@@ -1,0 +1,5 @@
+math,qcm,8*6+2,44/10/22/50,50
+algorithme,qcm,public static,main/Main/MAIN,main
+physique,qo,definiton de electron,noyau/negative
+math,qcm,8-(-4)=,12/4/-4/-12,12
+math,qo,derivé de x,1

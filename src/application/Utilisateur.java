@@ -12,7 +12,7 @@ public abstract class Utilisateur {
 		this.motDePasse = mdp;
 	}
 
-	Boolean authentifier(String nomUtilisateur, String motPasse) {
+	public Boolean authentifier(String nomUtilisateur, String motPasse) {
 		if (this.nomUtilisateur.equals(nomUtilisateur) && this.motDePasse.equals(motPasse))
 			return true;
 		else

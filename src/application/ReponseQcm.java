@@ -1,15 +1,26 @@
 package application;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 
 public class ReponseQcm extends Reponse {
-	private ArrayList<String> reponses = new ArrayList<String>();
+	private HashSet<String> reponses = new HashSet<String>();
 
-	public ArrayList<String> getReponses() {
+	public ReponseQcm(ArrayList<String> r) {
+		// TODO Auto-generated constructor stub
+		reponses.addAll(r);
+
+	}
+
+	public ReponseQcm() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public HashSet<String> getReponses() {
 		return reponses;
 	}
 
-	public void setReponses(ArrayList<String> reponses) {
+	public void setReponses(HashSet<String> reponses) {
 		this.reponses = reponses;
 	}
 

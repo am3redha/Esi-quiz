@@ -1,15 +1,25 @@
 package application;
 
-public class Question {
+public abstract class Question {
 	private String question;
-	private Reponse reponse;
+	private Reponse reponseJuste;
 
-	public Reponse getReponse() {
-		return reponse;
+	public abstract float evaluationReponse();
+
+	public String getQuestion() {
+		return question;
 	}
 
-	public void setReponse(Reponse reponse) {
-		this.reponse = reponse;
+	public void setQuestion(String question) {
+		this.question = question;
+	}
+
+	public Reponse getReponseJuste() {
+		return reponseJuste;
+	}
+
+	public void setReponseJuste(Reponse reponseJuste) {
+		this.reponseJuste = reponseJuste;
 	}
 
 }
